@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import HandTrackingModule as htm
+import HandModule as tool
 import time
 import autopy
 
@@ -17,7 +17,7 @@ modX, modY = 0, 0
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 cap.set(3, w)
 cap.set(4, h)
-detector = htm.handDetector(detectionCon=0.5, maxHands=1)
+detector = tool.handDetector(detectionCon=0.5, maxHands=1)
 wid, hei = autopy.screen.size()
 
 while True:
