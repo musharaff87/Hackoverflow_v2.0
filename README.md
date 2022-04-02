@@ -38,7 +38,11 @@ TECH STACK :
 
 ------------------------------------------------------------------------------------------------------------
 WorkFlow:
-    * We have started with detecting the hands through OpenCV and Mediapipe
+
+    * We have started with detecting the hands through OpenCV and Mediapipe.
+    
     * After that we fix the handtracking points and by calculating the distance between those points the system can perform Click,Move,Right-Click,Left- Click,Scroll,Zoom Actions etc.,
+    
     * Based on suggestions of the invilgilator,we incorporated American Sign Language (ALS) in our program to help differently-abled people.
+    
     * To make our project completely contactless, we made it voice accessable.We also included several voice assistant features.
