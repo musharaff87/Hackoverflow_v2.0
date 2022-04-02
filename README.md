@@ -46,3 +46,10 @@ WorkFlow:
     * Based on suggestions of the invilgilator,we incorporated American Sign Language (ALS) in our program to help differently-abled people.
     
     * To make our project completely contactless, we made it voice accessable.We also included several voice assistant features.
+    ----------------------------------------------------------------------------------------------------------------
+    
+ Applications:
+ 
+-> This project can be used in two completely different versions - a public one & a personal one.
+-> The Public one can be used in public places like ATMs, Ticket Booking Machines,Token Counters,Receipt Dispeners,etc,. This version contains the most basic features like Controlling the cursor, Clicking & Scrolling.
+-> The personal one can be used by interested personnel like Business professionals, students etc,. This versions contains all the commmonly used features of the input devices like Controlling the cursor,Clicking,Scrolling,Zooming,Drag & Drop,Virtual Keyboard etc,.
