@@ -71,9 +71,9 @@ while True:
 
 
     #drag and drop
-    if fingers[2] == 1 and fingers[3] == 0:
-        length, obj, lineInfo = detector.findDistance(8, 5, obj)
-        print(length)
+    #if fingers[1] == 0 and fingers[1] == 0 and fingers[3] == 1:
+        #length, obj, lineInfo = detector.findDistance(8, 5, obj)
+        #print(length)
         #if length < 30:
         #    pyautogui.mouseDown()
         #if length > :
@@ -93,6 +93,8 @@ while True:
             pyautogui.keyDown('ctrl')
             pyautogui.scroll(-100)
             pyautogui.keyUp('ctrl')
+
+
 
     
 
