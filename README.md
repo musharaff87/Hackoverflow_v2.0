@@ -19,5 +19,5 @@ wheel and some of basic operations like save, print, shutdown, screen lock etc.,
 lock, shutdown, etc.
 This project is focused on deep learning for detecting gestures. This method will avoid the spread 
 of the COVID-19 crisis by reducing human interaction with the devices to control the system in 
-crowded cities. To make this systm as completely contactless interaction by adding voice enabled commands.Thus exploring this problem, a system for gesture-enabled commands for 
+crowded cities. To make this system as completely contactless interaction by adding voice enabled commands.Thus exploring this problem, a system for gesture-enabled commands for 
 operating Laptop/pc can be achieved.
