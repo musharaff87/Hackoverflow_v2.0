@@ -20,3 +20,12 @@ This project is focused on deep learning for detecting gestures. This method wil
 of the COVID-19 crisis by reducing human interaction with the devices to control the system in 
 crowded cities. To make this system as completely contactless interaction by adding voice enabled commands.Thus exploring this problem, a system for gesture-enabled commands for 
 operating Laptop/pc can be achieved.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+TECH STACK :
+  # OpenCV
+  # Mediapipe
+  # AutoPy
+  # Pyinstaller
+   
