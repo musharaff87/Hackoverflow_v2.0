@@ -5,7 +5,7 @@ import pyautogui
 import time
 import autopy
 
-w, h = 640, 480
+w, h = 480, 360
 frame_reduction = 100
 smooth = 9
 
@@ -70,21 +70,10 @@ while True:
 
 
 
-    #drag and drop
-    #if fingers[1] == 0 and fingers[1] == 0 and fingers[3] == 1:
-        #length, obj, lineInfo = detector.findDistance(8, 5, obj)
-        #print(length)
-        #if length < 30:
-        #    pyautogui.mouseDown()
-        #if length > :
-        #    pyautogui.mouseUp()
-
-
-
     #pinch zoom in and out
     if fingers[2] == 0 and fingers[3] == 0 and fingers[4] == 1:
         length, obj, lineInfo = detector.findDistance(4, 8, obj)
-        print(length)
+        #print(length)
         if length < 17:
             pyautogui.keyDown('ctrl')
             pyautogui.scroll(100)
@@ -96,10 +85,16 @@ while True:
 
 
 
-    
 
 
-
+            # drag and drop
+            # if fingers[1] == 0 and fingers[1] == 0 and fingers[3] == 1:
+            # length, obj, lineInfo = detector.findDistance(8, 5, obj)
+            # print(length)
+            # if length < 30:
+            #    pyautogui.mouseDown()
+            # if length > :
+            #    pyautogui.mouseUp()
 
     cv2.imshow("Frame", obj)
     cv2.waitKey(1)

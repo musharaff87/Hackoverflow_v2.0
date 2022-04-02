@@ -69,6 +69,11 @@ if __name__=='__main__':
             speak("virtual tool is open now")
             time.sleep(3)
 
+        elif 'close tool' or 'end tool' in statement:
+            print("closing mouse...")
+            procmouse.kill()
+            time.sleep(3)
+
 
 
 time.sleep(3)
