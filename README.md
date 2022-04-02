@@ -24,8 +24,8 @@ operating Laptop/pc can be achieved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 TECH STACK :
-  # OpenCV
-  # Mediapipe
-  # AutoPy
-  # Pyinstaller
+  * OpenCV
+  * Mediapipe
+  * AutoPy
+  * Pyinstaller
    
