@@ -9,7 +9,8 @@ Team Members -
 
 In our modern world, we have seen many emerging technologies which put our lives at ease in specific ways of interaction with devices by physically touching them.
  It is difficult to use the touch screen system for some instances like the COVID pandemic. In order to avoid those circumstances, we use an Alternate Technique such as object detection with 
-a Computer-vision based control system, by adding gestures for certain vivid tasks to accomplish them without direct interaction with the system.
+a Computer-vision based control system, by adding gestures for certain vivid tasks to accomplish them wit
+hout direct interaction with the system.
 The gesture control technique uses hand gestures or expressions, which are captured from the digital camera with the help of OpenCV libraries.
 
 A virtual gesture system is created with the goal of elucidating human gestures using geometry calculations. Gesture detection can be seen as a way for computers to begin 
@@ -20,3 +21,37 @@ This project is focused on deep learning for detecting gestures. This method wil
 of the COVID-19 crisis by reducing human interaction with the devices to control the system in 
 crowded cities. To make this system as completely contactless interaction by adding voice enabled commands.Thus exploring this problem, a system for gesture-enabled commands for 
 operating Laptop/pc can be achieved.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+TECH STACK :
+
+  * OpenCV
+  * Mediapipe
+  * AutoPy
+  * Pyinstaller
+   --------------------------------------------------------------------------------------------------------
+   
+   FLOWCHART :
+   
+![download](https://user-images.githubusercontent.com/73353391/161372983-eb5ffcef-2b99-4a55-9cf7-1f3d8a068a72.jpg)
+
+------------------------------------------------------------------------------------------------------------
+WorkFlow:
+
+    * We have started with detecting the hands through OpenCV and Mediapipe.
+    
+    * After that we fix the handtracking points and by calculating the distance between those points the system can perform Click,Move,Right-Click,Left- Click,Scroll,Zoom Actions etc.,
+    
+    * Based on suggestions of the invilgilator,we incorporated American Sign Language (ALS) in our program to help differently-abled people.
+    
+    * To make our project completely contactless, we made it voice accessable.We also included several voice assistant features.
+    ----------------------------------------------------------------------------------------------------------------
+    
+ Applications:
+ 
+-> This project can be used in two completely different versions - a public one & a personal one.
+
+-> The Public one can be used in public places like ATMs, Ticket Booking Machines,Token Counters,Receipt Dispeners,etc,. This version contains the most basic features like Controlling the cursor, Clicking & Scrolling.
+
+-> The personal one can be used by interested personnel like Business professionals, students etc,. This versions contains all the commmonly used features of the input devices like Controlling the cursor,Clicking,Scrolling,Zooming,Drag & Drop,Virtual Keyboard etc,.
