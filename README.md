@@ -2,7 +2,7 @@
 Team Name = Code Of Duty
 
 Team Members -
- * Mohammad Musharaf Z
+ * Mohammed Musharaf Z
  * Rohith R
  * J Meril Akash 
  * Harish K
@@ -15,8 +15,7 @@ The gesture control technique uses hand gestures or expressions, which are captu
 A virtual gesture system is created with the goal of elucidating human gestures using geometry calculations. Gesture detection can be seen as a way for computers to begin 
 to recognize human body language, thus bridging the gap between humans and computers. 
 When gestures are detected, it performs the desired I/O functions like cursor movement, scroll 
-wheel and some of basic operations like save, print, shutdown, screen lock etc.,
-lock, shutdown, etc.
+wheel and some of basic operations like scroll, zoom,right click , left click,novice ASL etc.
 This project is focused on deep learning for detecting gestures. This method will avoid the spread 
 of the COVID-19 crisis by reducing human interaction with the devices to control the system in 
 crowded cities. To make this system as completely contactless interaction by adding voice enabled commands.Thus exploring this problem, a system for gesture-enabled commands for 
