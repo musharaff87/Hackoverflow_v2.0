@@ -57,14 +57,44 @@ while True:
     if fingers[1] == 1 and fingers[2] == 1:
         length, obj, lineInfo = detector.findDistance(12, 9, obj)
         if length < 62:
-            cv2.circle(obj, (lineInfo[4], lineInfo[5]), 5, (0, 255, 0), cv2.FILLED)
             autopy.mouse.toggle(autopy.mouse.Button.RIGHT, False)
 
     #scroll wheel
+    if fingers[1] == 1 and fingers[2] == 1:
+        length, obj, lineInfo = detector.findDistance(8, 12, obj)
+        #print(length)
+        if length < 25:
+            pyautogui.scroll(100)
+        if length > 105:
+            pyautogui.scroll(-100)
 
 
 
     #drag and drop
+    if fingers[2] == 1 and fingers[3] == 0:
+        length, obj, lineInfo = detector.findDistance(8, 5, obj)
+        print(length)
+        #if length < 30:
+        #    pyautogui.mouseDown()
+        #if length > :
+        #    pyautogui.mouseUp()
+
+
+
+    #pinch zoom in and out
+    if fingers[2] == 0 and fingers[3] == 0 and fingers[4] == 1:
+        length, obj, lineInfo = detector.findDistance(4, 8, obj)
+        print(length)
+        if length < 17:
+            pyautogui.keyDown('ctrl')
+            pyautogui.scroll(100)
+            pyautogui.keyUp('ctrl')
+        if length > 170:
+            pyautogui.keyDown('ctrl')
+            pyautogui.scroll(-100)
+            pyautogui.keyUp('ctrl')
+
+    
 
 
 
